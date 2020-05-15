@@ -102,10 +102,11 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: #9A8C98;
 }
 
 .wrapper {
@@ -120,16 +121,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #F2E9E4;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #4A4E69;
   height: 300px;
-  width: 30%;
+  width: 33.33%;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
 }
 
+.div-2 p {
+  border-left: 0.0625em solid #9A8C98;
+  border-right: 0.0625em solid #9A8C98;
+  padding: 0 1.9em;
+}
 
-
+.div-1 p, .div-3 p {
+  padding: 0 1.9em;
+}
 
 /* ==========================================================================
    Helper classes
